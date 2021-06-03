@@ -6,13 +6,13 @@ const body = document.querySelector("body");
 
 function handleResize() {
   if (window.innerWidth > 1200) {
-    body.style.backgroundColor = "orange";
+    body.className = "orange";
   } else if (window.innerWidth > 1000) {
-    body.style.backgroundColor = "green";
+    body.className = "green";
   } else if (window.innerWidth > 800) {
-    body.style.backgroundColor = "red";
+    body.className = "red";
   } else {
-    body.style.backgroundColor = "black";
+    body.className = "black";
   }
   console.log(window.innerWidth);
 }

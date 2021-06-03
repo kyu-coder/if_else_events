@@ -1,7 +1,22 @@
 body {
   font-family: sans-serif;
-  background-color: orange;
 }
 h2 {
   color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
 }
